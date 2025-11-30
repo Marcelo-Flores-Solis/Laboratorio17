@@ -11,7 +11,7 @@ function cargarUsuario() {
     const delay = Math.floor(Math.random() * (1500 - 800 + 1)) + 800;
 
     setTimeout(() => {
-      const usuario = { id: 1, nombre: 'Juancito' };
+      const usuario = { id: 1, nombre: 'Jazmin' };
       resolve(usuario);
     }, delay);
   });
